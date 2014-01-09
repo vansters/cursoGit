@@ -1,0 +1,15 @@
+
+#	Configuramos la cuenta de git
+>>	$ git config --global user.name 	" name "
+>>	$ git config --global user.email 	" name@email.com "
+
+#	Listamos la configuración git
+>>	$ git config --list
+
+#	Colocamos en el escenario los cambios
+>>	$	git add Archivo.txt	
+
+#	Consolidamos los cambios (-m :: indica que es un mensaje informativo.
+>>	$	git commit -m "Commit Inicial"
+
+	
